@@ -13,10 +13,13 @@ The environment requirements are:
 To execute the application use the command
 
   •	java -jar PhoneEncoder-1.0.jar  <Phonebook file> -d <Dictionary file>
+  
   •	java -jar PhoneEncoder-1.0.jar  
    o	Takes the default dictionary and  depend on user based input from console for phone numbers
+   
   •	java -jar PhoneEncoder-1.0.jar  -d <Dictionary file>
    o	Takes the configured dictionary file and encodes the text entered through console using it
+   
   •	java -jar PhoneEncoder-1.0.jar  <Phonebook file>
    o	Make used of default dictionary for encoding the phone numbers mentioned in Phonebook file.
 
